@@ -1,4 +1,4 @@
-<h1><img src="assets/tcrsmalldist.svg" alt="tcrsmalldist" width="250"></h1>
+<h1><img src="assets/tcrsmalldist.svg" alt="tcrsmalldist" width="250" halign="center"></h1>
 
 A same-peptide probability score for TCR pairs that TCRdist scores as close (tcrdist <= 24).
 
