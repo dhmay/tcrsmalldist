@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+title: tcrsmalldist
+message: If you use this software, please cite both the software and the paper below.
+type: software
+authors:
+  - family-names: May
+    given-names: Damon
+abstract: >-
+  A calibrated same-peptide probability for TCR pairs that TCRdist calls close. For a pair of
+  beta-chain CDR3s separated by one indel and/or one or two amino-acid substitutions, the model
+  returns the probability that the two receptors bind the same peptide.
+license: MIT
+repository-code: https://github.com/dhmay/tcrsmalldist
+# version and date-released are set at each release
+version: 0.1.0
+date-released: 2026-10-13
+
+# TODO: the paper this accompanies. Fill in the DOI, journal and year on acceptance, and add the
+# same DOI as `identifiers` above if you want the software entry to point at it too.
+preferred-citation:
+  type: article
+  title: "TODO: paper title"
+  authors:
+    - family-names: May
+      given-names: Damon
+  year: 2026
+  doi: "TODO: 10.xxxx/xxxxx"
