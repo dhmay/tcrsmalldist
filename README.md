@@ -1,4 +1,4 @@
-# tcrsmalldist
+<h1><img src="assets/tcrsmalldist.svg" alt="tcrsmalldist" width="320"></h1>
 
 A calibrated same-peptide probability for TCR pairs that TCRdist calls close together (tcrdist <= 24).
 
