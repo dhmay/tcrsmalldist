@@ -1,0 +1,15 @@
+# scratch space: manual testing notebooks, throwaway data, anything not meant to ship
+/scratch/
+
+# a library, so consumers resolve their own versions; the lock is noise in the diff
+/uv.lock
+
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+build/
+dist/
+*.egg-info/
+.DS_Store
