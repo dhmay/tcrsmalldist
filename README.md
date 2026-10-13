@@ -2,6 +2,8 @@
 
 A calibrated same-peptide probability for TCR pairs that TCRdist calls close together (tcrdist <= 24).
 
+by [Damon May](https://www.linkedin.com/in/damonhmay/)
+
 TCRdist returns a number for any pair of TCRs, but at short range it has little to say: two pairs
 whose CDR3s differ by the same amino acid substitution(s) get the same distance regardless of where
 in the CDR3 the substitution(s) sit(s), and an indel is charged a flat penalty regardless of
@@ -83,7 +85,8 @@ refined = np.full(len(distances), np.nan)
 refined[close] = score(cdr3_a[close], cdr3_b[close])
 ```
 
-Alignment is vectorized by CDR3 length for efficiency on large inputs.
+Alignment is vectorized by CDR3 length for efficiency on large inputs. Processing is batched,
+so memory usage doesn't scale with input size.
 
 ## The model
 
@@ -114,4 +117,4 @@ Two third-party tables are redistributed in `src/tcrsmalldist/data/`:
 
 ## Acknowlegments
 
-Software implementation and documentation were developed with assistance from Claude (Anthropic). The authors designed the analyses, verified all code and outputs, and take full responsibility for the work.
+Software implementation and documentation were developed with assistance from Claude (Anthropic). The author designed the analyses, verified all code and outputs, and takes full responsibility for the work.

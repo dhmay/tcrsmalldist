@@ -1,7 +1,7 @@
 [project]
 name = "tcrsmalldist"
 version = "0.1.0"
-description = "A calibrated same-peptide probability for TCR pairs that TCRdist calls close"
+description = "A calibrated same-peptide probability score for TCR pairs with TCRdist <= 24"
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
