@@ -1,6 +1,6 @@
-<h1><img src="assets/tcrsmalldist.svg" alt="tcrsmalldist" width="320"></h1>
+<h1><img src="assets/tcrsmalldist.svg" alt="tcrsmalldist" width="250"></h1>
 
-A calibrated same-peptide probability for TCR pairs that TCRdist calls close together (tcrdist <= 24).
+A same-peptide probability score for TCR pairs that TCRdist scores as close (tcrdist <= 24).
 
 by [Damon May](https://www.linkedin.com/in/damonhmay/)
 
