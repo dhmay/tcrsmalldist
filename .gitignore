@@ -4,6 +4,9 @@
 # a library, so consumers resolve their own versions; the lock is noise in the diff
 /uv.lock
 
+# local Claude Code instructions: how I work, not part of the package
+/CLAUDE.md
+
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
